@@ -3,7 +3,7 @@ import student
 
 @pytest.mark.parametrize(("string", "expected"), [
         ('a@c.com', ["a@c.com"]),
-        ('111@AFF.com', ["111@AFF.com"]), 
+        ('111@aff.com', ["111@aff.com"]), 
         ("""
         a@c.com fsjdf jfslk fkls fjl df
         jalfkj b@d.be fjdlkf jfkljdlkf
